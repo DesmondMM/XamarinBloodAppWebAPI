@@ -15,6 +15,7 @@ using BloodTraceWebApi.Models;
 
 namespace BloodTraceWebApi.Controllers
 {
+    [Authorize]
     public class BloodUsersController : ApiController
     {
         private ApplicationDbContext db = new ApplicationDbContext();

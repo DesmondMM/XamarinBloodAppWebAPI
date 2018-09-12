@@ -29,5 +29,7 @@ namespace BloodTraceWebApi.Models
         {
             return new ApplicationDbContext();
         }
+
+        public System.Data.Entity.DbSet<BloodTraceWebApi.Models.BloodUser> BloodUsers { get; set; }
     }
 }

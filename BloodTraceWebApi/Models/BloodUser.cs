@@ -21,6 +21,6 @@ namespace BloodTraceWebApi.Models
         public int Date { get; set; }
 
         [NotMapped]
-        public byte ImageArray { get; set; }
+        public byte[] ImageArray { get; set; }
     }
 }
